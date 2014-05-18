@@ -41,7 +41,7 @@ class quickdemo::master {
   }
 
   file { '/etc/puppetlabs/puppet/data/roles':
-    ensure => folder,
+    ensure => directory,
     owner  => pe-puppet,
     group  => pe-puppet,
     mode   => 0644,

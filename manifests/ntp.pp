@@ -1,3 +1,3 @@
 class quickdemo::ntp {
-  include ntp
+  include ::ntp
 }
