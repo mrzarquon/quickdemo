@@ -1,0 +1,4 @@
+---
+classes:
+  - 'pe_mcollective'
+  - 'quickdemo::ntp'
